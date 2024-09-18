@@ -1,2 +1,2 @@
-# my-first-repo
-Hello World, I hope everybody is doing well
+FROM rocker/rstudio
+RUN apt-get update && apt-get install -y git
